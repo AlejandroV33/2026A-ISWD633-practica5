@@ -1,3 +1,3 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+# Mi aprendizaje
+
+Con esta practica al dar el salto a Docker Compose pude entender como trabajar con varios contenedores aislados para empezar a entenderlos como un sistema completo y organizado. Aunque antes utilizaba esta herramienta con ayuda de IA, pero no comprendía realmente la lógica de jerarquía detrás del archivo YAML. En estas prácticas aprendí que la indentación es muy importante y dierente a la progamacion comun que suele ser con tabuladores, y que el archivo compose.yaml funciona como un orquestador donde se define no solo qué imágenes usar, sino cómo deben conectarse entre sí a través de redes y volúmenes compartidos. Lo que más me marcó fue integrar los healthchecks con la instrucción depends_on; entendí que en aplicaciones complejas como SonarQube o WordPress, no basta con que el contenedor de la base de datos esté encendido, sino que debe estar sano para que la aplicación principal pueda arrancar sin fallar. 
